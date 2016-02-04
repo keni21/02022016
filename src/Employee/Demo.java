@@ -44,6 +44,9 @@ public class Demo {
 		OrganigramHandler Organigram=new OrganigramHandler();
 		System.out.println("________________________________________________________");
 		System.out.println(OrganigramHandler.getChainOfCommand(Miatarbeiter3));
+		
+		System.out.println("________________________________________________________");
+		System.out.println(OrganigramHandler.processHierarchy(emp2));
 	}
 
 }
