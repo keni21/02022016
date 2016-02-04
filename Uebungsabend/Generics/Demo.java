@@ -1,14 +1,15 @@
-package MayBe;
+package Generics;
 
 public class Demo {
 
 	public static void main(String[] args) {
 
 		MayBe<Integer> alter= new MayBe<Integer>(26, 1);
-		alter.printData();
+		alter.toString();
 		
 		MayBe<String>value= new MayBe<String>("Klaus", 3);
-		System.out.println(value);
+		System.out.println(value);	
+
 	}
 
 }
